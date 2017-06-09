@@ -95,7 +95,7 @@ if ( isset( $_GET[ 'sourcecode' ] ) ) {
 				<br/> Es folgen Links zu aktuellen Browsern:<br/>
 
 				<a href="https://www.google.de/chrome/browser/desktop/index.html" title="Google Chrome">Google Chrome</a> - <a href="https://www.mozilla.org/de/firefox/products/" title="Mozilla Firefox">Mozilla Firefox</a> - <a href="https://www.apple.com/de/safari/" title="Safari">Safari</a><br/>
-				<br/> Sollten Sie dennoch Sicherheitsbedenken haben, steht es Ihnen frei sich den Quelltext auf Github anzusehen.
+				<br/> Sollten Sie dennoch Sicherheitsbedenken haben, steht es Ihnen frei sich den <a href="https://github.com/ljosberinn/Wahlorientierungshilfe" title="Github Repository">Quelltext auf Github</a> anzusehen.
 			</p>
 		</div>
 
