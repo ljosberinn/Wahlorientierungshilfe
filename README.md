@@ -4,6 +4,8 @@
 
 Eine [ neutrale & transparente Wahlorientierungshilfe](https://wahl2017.gerritalex.de) zur Bundestagswahl 2017, basierend auf anonymisierten Direktzitaten aus allen Wahlprogrammen.
 
+Kontakt ausschließlich via wahl-feedback@gerritalex.de!
+
 ## Was ist das?
 
 Ein weiterer Wahlomat.
