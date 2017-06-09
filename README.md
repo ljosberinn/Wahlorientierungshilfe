@@ -1,4 +1,7 @@
 # Wahlorientierungshilfe
+
+<p align="center"><img src="https://github.com/ljosberinn/Wahlorientierungshilfe/blob/master/img/logo.png" alt="Logo" /></p>
+
 Eine [ neutrale & transparente Wahlorientierungshilfe](https://wahl2017.gerritalex.de) zur Bundestagswahl 2017, basierend auf anonymisierten Direktzitaten aus allen Wahlprogrammen.
 
 ## Was ist das?
@@ -17,6 +20,10 @@ Diese Zitate können teilweise sehr lang ausfallen. Bitte nehmen Sie sich hierf�
 Es stehen (THEMENMENGE) verschiedene Themen zur Auswahl. Aus Gründen der Unvoreingenommenheit werden diese hier nicht aufgezählt.
 
 Die Reihenfolge der Zitate ist ebenso zufällig um ein ggf. entstehendes Muster zu vermeiden. Jeder Durchgang ist quasi einzigartig, die Wahrscheinlichkeit exakt dieselbe Reihenfolge nochmals auszuwürfeln ist 1: (THEMENMENGE^PARTEIEN), was in etwa der X-fachen Wahrscheinlichkeit entspricht, den sprichwörtlichen 6er im Lotto zu haben.
+
+## Persönliche Motivation
+
+Schlicht und ergreifend ein Experiment. Bei diesem Projekt obliegt jegliche theoretisch auf ein Team aufteilbare Verantwortung bei mir: Konzept, Farbauswahl, Logogestaltung, Typographie, (Responsive) Frontenddesign, Backenddesign, Skripten und Aufarbeiten der Wahlprogramme. Aufgrund der akuten Situation des offiziellen Wahltools und der einigermaßen<sup style="font-size: 10px;">(Zeitpunkt 9. Juni)</sup> bevorstehenden Wahl habe ich noch dazu eine Deadline zu der das Projekt fertig sein sollte: spätestens einen Monat vor Wahl sofern die Veröffentlichung der individuellen Wahlprogramme das zulässt. Zum jetzigen Zeitpunkt sind nur zwei Programme veröffentlicht (AfD und FDP).
 
 ## Lizenz
 
