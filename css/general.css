@@ -207,7 +207,21 @@ a > svg {
 @media screen and (max-width: 1024px) {
 	
 	.middle-top {
-		padding: 10px 0px 20px 0px !important;
+		padding: 10px 0px 10px 0px !important;
+	}
+	
+	.continue, .back {
+		float: none;
+	}
+	
+	.back {
+		padding-left: 0px;
+		padding-bottom: 15px;
+	}
+	
+	.continue {
+		padding-top: 15px;
+		padding-right: 0px;
 	}
 	
 	.middle-left {
@@ -255,7 +269,21 @@ a > svg {
 	}
 	
 	.middle-top {
-		padding: 10px 0px 30px 0px !important;
+		padding: 10px 0px 10px 0px !important;
+	}
+	
+	.continue, .back {
+		float: none;
+	}
+	
+	.back {
+		padding-left: 0px;
+		padding-bottom: 15px;
+	}
+	
+	.continue {
+		padding-top: 15px;
+		padding-right: 0px;
 	}
 	
 	.top-left, .top-right {
