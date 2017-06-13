@@ -62,7 +62,7 @@ if ( isset( $_GET[ 'sourcecode' ] ) ) {
 	<!-- externes CSS -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Gentium+Basic:700" rel="stylesheet">
 
-	<!-- Javascript Bibliotheken chart.js -->
+	<!-- Javascript Bibliotheken -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- jQueryUI Custom gebaut via https://jqueryui.com/download/#!version=1.12.1&components=111111111111110111111110111111111001101111010111 -->
 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
