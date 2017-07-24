@@ -8,13 +8,15 @@ Kontakt ausschließlich via wahl-feedback@gerritalex.de!
 
 ## Was ist das?
 
-Ein weiterer Wahl-O-Mat.
-Falls Sie nicht mit dem von der Bundeszentrale für politische Bildung beworbenen Wahl-O-Maten vertraut sein sollten: Ziel des Wahl-O-Mats ist es eine Entscheidungsstütze zu einer Wahl darzustellen. Beispielsweise unentschlossene Personen können sich so ohne großen Aufwand durch Beantworten einiger Fragen ein personalisiertes Ergebnis erarbeiten.
+Eine Wahlentscheidungshilfe.
+Falls Sie nicht mit dem von der Bundeszentrale für politische Bildung beworbenen Wahl-O-Maten vertraut sein sollten: Ziel des Wahl-O-Mats der BpB ist es eine Entscheidungsstütze zu einer Wahl darzustellen. Beispielsweise unentschlossene Personen können sich so ohne großen Aufwand durch Beantworten einiger Fragen ein personalisiertes Ergebnis erarbeiten.
 
-## Wenn es schon den offiziellen Wahl-O-Maten gibt, wieso dann noch einer?
+## Wenn es schon das offizielle Angebot gibt, wieso dann noch eines?
 
-Der Wahlomat der Bundeszentrale für politische Bildung ist weder codetransparent, noch ist die Fragenauswahl in irgendeiner Weise überprüf- oder nachvollziehbar. Eine nicht direkt auf den Wahlprogrammen basierende Meinungsbildung ohne Quelleneinsicht halte ich somit für leicht manipulierbar und zu oberflächlich.
-Ein staatliches Angebot sollte diese Anforderungen jedoch erfüllen. Durch diese unscheinbaren, aber doch gravierenden Unterschiede ist diese Wahlorientierungshilfe somit für Jedermann interessant.
+Der Wahl-O-Mat der Bundeszentrale für politische Bildung ist weder codetransparent, noch ist die Fragenauswahl in irgendeiner Weise überprüf- oder nachvollziehbar. Eine nicht direkt auf den Wahlprogrammen basierende Meinungsbildung ohne Quelleneinsicht halte ich somit für leicht manipulierbar und zu oberflächlich.
+Ein staatliches Angebot sollte diese Anforderungen jedoch erfüllen - ein plausibler Vorwurf der Beeinflussung darf einen staatlichem Angebot nicht gemacht werden, denn sonst verliert sie an Glaubhaftigkeit.
+Durch diese unscheinbaren, aber doch gravierenden Unterschiede ist diese Wahlorientierungshilfe somit für Jedermann interessant.
+
 
 ## Was erwartet mich?
 
