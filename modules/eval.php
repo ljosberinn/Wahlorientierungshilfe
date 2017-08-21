@@ -171,8 +171,8 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 	echo '
 	<p class="font-small"></p>
 	
-	<p class="font-medium os-sb">Weitere Themen, zu denen nicht jede Partei eine Aussage getroffen hat</p>
-	<p class="font-small">Jede Partei bedient außerdem Nischenthemas, zu dem nur speziell diese eine Aussage getroffen hat. Es ist möglich, dass genau dieses Thema Ihnen jedoch besonders am Herz liegt, deshalb sollten Sie folgendes noch wissen:</p>
+	<p class="font-medium os-sb">Bitte nicht vergessen:</p>
+	<p class="font-small">Jede Partei bedient außerdem Nischenthemas, zu dem nur speziell diese eine Aussage getroffen hat. Es ist möglich, dass genau dieses Thema Ihnen jedoch besonders am Herz liegt, deshalb sollten Sie sich meine rechts verlinkten Arbeitsmaterialien zu jeder Partei noch ansehen.</p>
 	
 	<p class="font-medium os-sb"></p>
 	<p class="font-small"></p>
@@ -182,45 +182,45 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 	
 	<p class="font-medium os-sb">Zitatnachweise</p>
 	<p class="font-small">Sämtliche Zitate wurden direkt und ausschließlich den öffentlich zugänglichen Wahlprogrammen entnommen, anonymisiert und inhaltlich auf den Kern reduziert, falls längenbedingt notwendig.<br />
-	Im Folgenden finden Sie eine Sammlung von Links zu den jeweiligen Programmen, einmal lokal gespeichert, in denen die entnommenen Zitate markiert sind, einmal von offizieller Seite.</p>
+	Im Folgenden finden Sie eine Sammlung von Links zu den jeweiligen Programmen, einmal mein rohes Arbeitsmaterial mit bereits anonymisierten Zitaten aber noch der jeweiligen Partei zugeordnet, einmal von offizieller Seite.</p>
 	
 	<table style="width: calc(100% - 40px); margin: 0 auto; text-align: center;">
 		<thead>
 			<tr>
 				<th>Partei</th>
-				<th>PDF mit Markierungen</th>
+				<th>Arbeitsmaterial</th>
 				<th>Offizieller Link</th></tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>AfD</td>
-				<td><a href="">Link</a></td>
-				<td><a href="https://www.afd.de/wp-content/uploads/sites/111/2017/05/2017-05-19_AfD-Bundestagswahlprogramm_Onlinefassung.pdf" target="_blank" title="AfD Bundestagswahlprogramm Onlinefassung">Link</ta></td>
+				<td><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1BeC10ww5fCOl9U6VW31aj-5xeWAntefaiA3U5P9Aq08/edit?usp=sharing#gid=0">Link</a></td>
+				<td><a href="https://www.afd.de/wp-content/uploads/sites/111/2017/06/2017-06-01_AfD-Bundestagswahlprogramm_Onlinefassung.pdf" target="_blank" title="AfD Bundestagswahlprogramm Onlinefassung">Link</ta></td>
 			</tr>
 			<tr>
-				<td>CDU/CSU</td>
-				<td><a href="">Link</a></td>
-				<td><a href="" target="_blank" title="CDU/CSU Wahlprogramm">Link</ta></td>
+				<td>Union (CDU/CSU)</td>
+				<td><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1BeC10ww5fCOl9U6VW31aj-5xeWAntefaiA3U5P9Aq08/edit?usp=sharing#gid=1140919819">Link</a></td>
+				<td><a href="https://www.cdu.de/system/tdf/media/dokumente/170703regierungsprogramm2017.pdf?file=1" target="_blank" title="CDU/CSU Wahlprogramm">Link</ta></td>
 			</tr>
 			<tr>
 				<td>Bündnis 90/Die Grünen</td>
-				<td><a href="">Link</a></td>
-				<td><a href="" target="_blank" title="Bündnis 90/Die Grünen Wahlprogramm">Link</ta></td>
+				<td><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1BeC10ww5fCOl9U6VW31aj-5xeWAntefaiA3U5P9Aq08/edit?usp=sharing#gid=1746179159">Link</a></td>
+				<td><a href="https://www.gruene.de/fileadmin/user_upload/Dokumente/BUENDNIS_90_DIE_GRUENEN_Bundestagswahlprogramm_2017.pdf" target="_blank" title="Bündnis 90/Die Grünen Wahlprogramm">Link</ta></td>
 			</tr>
 			<tr>
 				<td>Die Linke</td>
-				<td><a href="">Link</a></td>
-				<td><a href="" target="_blank" title="Die Linke Wahlprogramm">Link</ta></td>
+				<td><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1BeC10ww5fCOl9U6VW31aj-5xeWAntefaiA3U5P9Aq08/edit?usp=sharing#gid=1911242567">Link</a></td>
+				<td><a href="https://www.die-linke.de/fileadmin/download/wahlen2017/wahlprogramm2017/die_linke_wahlprogramm_2017.pdf" target="_blank" title="Die Linke Wahlprogramm">Link</ta></td>
 			</tr>
 			<tr>
 				<td>FPD</td>
-				<td><a href="">Link</a></td>
-				<td><a href="http://fdp.de/wahlprogramm" target="_blank" title="FDP Wahlprogramm">Link</ta></td>
+				<td><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1BeC10ww5fCOl9U6VW31aj-5xeWAntefaiA3U5P9Aq08/edit?usp=sharing#gid=1607021955">Link</a></td>
+				<td><a href="https://www.fdp.de/sites/default/files/uploads/2017/08/07/20170807-wahlprogramm-wp-2017-v16.pdf" target="_blank" title="FDP Wahlprogramm">Link</ta></td>
 			</tr>
 			<tr>
 				<td>SPD</td>
-				<td><a href="">Link</a></td>
-				<td><a href="" target="_blank" title="SPD Wahlprogramm">Link</ta></td>
+				<td><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1BeC10ww5fCOl9U6VW31aj-5xeWAntefaiA3U5P9Aq08/edit?usp=sharing#gid=611968716">Link</a></td>
+				<td><a href="https://www.spd.de/fileadmin/Dokumente/Bundesparteitag_2017/Es_ist_Zeit_fuer_mehr_Gerechtigkeit-Unser_Regierungsprogramm.pdf" target="_blank" title="SPD Wahlprogramm">Link</ta></td>
 			</tr>
 		</tbody>
 	</table>
