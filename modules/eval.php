@@ -229,6 +229,7 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 	<p class="font-small">Sie möchten Ihr Ergebnis speichern? Folgende ergebnisbezogene Möglichkeiten stehen zur Verfügung:</p>
 	<p class="font-small">– <a href="modules/pdf.php" target="_blank" title="PDF-Datei herunterladen">PDF-Datei herunterladen</a></p>
 	<p class="font-small">unten rechts finden Sie außerdem alle Sharingfunktionen ohne Ihr eingebettetes Ergebnis</p>
+	<p class="font-small"><button onclick="restart();" class="restart">Neustart (Achtung: ihr Ergebnis wird gelöscht)</button></p>
 	
 	</div>';
 

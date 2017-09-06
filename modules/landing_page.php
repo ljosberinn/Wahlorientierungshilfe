@@ -22,7 +22,7 @@ $lotto = round( 139838160 / $themenmenge_hoch_parteienanzahl, 0 );
 		<path d="M0 0h24v24H0z" fill="none"/>
 	</svg>
 
-	<span class="font-medium os-sb" onclick="start('<?php echo $_SESSION['themenreihenfolge']; ?>');">Fragebogen starten</span>
+	<span class="font-medium os-sb" onclick="start('<?php echo $_SESSION['themenreihenfolge']; ?>');">Fragebogen starten - Veröffentlichungstermin: 12. September 18 Uhr</span>
 
 </div>
 
@@ -30,17 +30,18 @@ $lotto = round( 139838160 / $themenmenge_hoch_parteienanzahl, 0 );
 <div class="middle-left">
 	
 	<p class="font-medium os-sb">Was ist das?</p>
-	<p class="font-small">Ein <a href="https://xkcd.com/927/" title="XKCD Comic zum Thema Standards" target="_blank">weiterer</a> Wahl-O-Mat.<br />Falls Sie nicht mit dem von der <a href="http://www.bpb.de/politik/wahlen/wahl-o-mat/" title="Wahl-O-Mat" target="_blank">Bundeszentrale für politische Bildung beworbenen Wahl-O-Maten</a> vertraut sein sollten: Ziel des Wahl-O-Mats ist es eine Entscheidungsstütze zu einer Wahl darzustellen. Beispielsweise unentschlossene Personen können sich so ohne großen Aufwand durch Beantworten einiger Fragen ein personalisiertes Ergebnis erarbeiten.</p>	
+	<p class="font-small">Eine <a href="https://xkcd.com/927/" title="XKCD Comic zum Thema Standards" target="_blank">Wahlentscheidungshilfe</a>.<br />Falls Sie nicht mit dem von der <a href="http://www.bpb.de/politik/wahlen/wahl-o-mat/" title="Wahl-O-Mat" target="_blank">Bundeszentrale für politische Bildung beworbenen Wahl-O-Maten</a> vertraut sein sollten: Ziel des Wahl-O-Mats der BpB ist es eine Entscheidungsstütze zu einer Wahl darzustellen. Beispielsweise unentschlossene Personen können sich so ohne großen Aufwand durch Beantworten einiger Fragen ein personalisiertes Ergebnis erarbeiten.</p>	
 	
-	<p class="font-medium os-sb">Wenn es schon den offiziellen Wahl-O-Maten gibt, wieso dann noch einer?</p>
-	<p class="font-small">Der Wahlomat der Bundeszentrale für politische Bildung ist weder <a href="https://fragdenstaat.de/anfrage/quellcode-des-wahl-o-mat/" title="Anfrage an die Bundeszentrale für politische Bildung" target="_blank">codetransparent</a>, noch ist die Fragenauswahl in irgendeiner Weise <a href="https://www.wahl-o-mat.de/nrw2017/popup_impressum.php" title="Impressum des Wahl-O-Mats" target="_blank">überprüf- oder nachvollziehbar</a>. Eine nicht direkt auf den Wahlprogrammen basierende Meinungsbildung ohne Quelleneinsicht halte ich somit für leicht manipulierbar und zu oberflächlich.<br />
-	Ein staatliches Angebot sollte diese Anforderungen jedoch erfüllen. Durch diese unscheinbaren, aber doch gravierenden Unterschiede ist diese Wahlorientierungshilfe somit für Jedermann interessant.</p>
+	<p class="font-medium os-sb">Wenn es schon das offizielle Angebot gibt, wieso dann noch eines?</p>
+	<p class="font-small">Der Wahl-O-Mat der Bundeszentrale für politische Bildung ist weder <a href="https://fragdenstaat.de/anfrage/quellcode-des-wahl-o-mat/" title="Anfrage an die Bundeszentrale für politische Bildung" target="_blank">codetransparent</a>, noch ist die Fragenauswahl in irgendeiner Weise <a href="https://www.wahl-o-mat.de/nrw2017/popup_impressum.php" title="Impressum des Wahl-O-Mats" target="_blank">überprüf- oder nachvollziehbar</a> - auch dieses Jahr sind Suggestivfragen oder Fragen dabei, die ohne fundiertes Hintergrundwissen nicht so beantwortet werden können. Eine nicht direkt auf den Wahlprogrammen basierende Meinungsbildung ohne Quelleneinsicht halte ich somit für leicht manipulierbar und zu oberflächlich.<br />
+	Ein staatliches Angebot sollte diese Anforderungen jedoch erfüllen - ein plausibler Vorwurf der Beeinflussung darf einen staatlichem Angebot nicht gemacht werden, denn sonst verliert sie an Glaubhaftigkeit.<br />Durch diese unscheinbaren, aber doch gravierenden Unterschiede ist diese Wahlorientierungshilfe somit für Jedermann interessant.</p>
 
 	<p class="font-medium os-sb">Was erwartet mich?</p>
-	<p class="font-small">Nach einem Klick auf Start werden Ihnen in zufälliger Reihenfolge anonymisierte Auszüge aller Parteien mit Einzugschance in den kommenden Bundestag und aller Parteien, die in den letzten 4 Bundestagen vertreten waren, ausgenommen jenen, die sich seitdem aufgelöst haben, vorgestellt.<br />
-	Diese Zitate können teilweise lang ausfallen. Bitte nehmen Sie sich hierfür die Zeit!<br />
+	<p class="font-small">Nach einem <span onclick="start('<?php echo $_SESSION['themenreihenfolge']; ?>');">Klick auf 'Fragebogen starten'</span> werden Ihnen in zufälliger Reihenfolge anonymisierte Auszüge aller Parteien mit Einzugschance in den kommenden Bundestag und aller Parteien, die in den letzten 4 Bundestagen vertreten waren, ausgenommen jenen, die sich seitdem aufgelöst haben, vorgestellt.<br /><br />
 	Es stehen <b><?php echo $themenmenge; ?></b> verschiedene Themen zur Auswahl. Aus Gründen der Unvoreingenommenheit werden diese hier nicht aufgezählt.<br />
-	<br />Die Reihenfolge der Zitate ist ebenso zufällig um ein ggf. entstehendes Muster zu vermeiden. Jeder Durchgang ist quasi einzigartig, die Wahrscheinlichkeit exakt dieselbe Reihenfolge nochmals auszuwürfeln ist 1: <?php echo $themenmenge_hoch_parteienanzahl; ?>, was in etwa der <?php echo $lotto; ?>-fachen Wahrscheinlichkeit entspricht, den sprichwörtlichen <i><a href="https://de.wikipedia.org/wiki/Lotto#Regelungen_seit_4._Mai_2013" title="Lottochancen lt. Wikipedia" target="_blank">6er im Lotto</a></i> zu haben.</p>
+	Die zugehörigen Zitate können teilweise lang ausfallen. <b>Um ein unverfälschtes Ergebnis zu erhalten, ist es zwingend notwendig sich genügend Zeit zu nehmen!</b><br />
+	Bitte wählen Sie das Zitat aus, mit dem Sie am ehesten einverstanden wären.<br />
+	<br />Die Reihenfolge der Zitate ist wie die Themenreihenfolge zufällig um ein ggf. entstehendes Muster zu vermeiden. Jeder Durchgang ist quasi einzigartig, die Wahrscheinlichkeit exakt dieselbe Reihenfolge nochmals auszuwürfeln ist 1: <?php echo $themenmenge_hoch_parteienanzahl; ?>, was in etwa der <?php echo $lotto; ?>-fachen Wahrscheinlichkeit entspricht, den sprichwörtlichen <i><a href="https://de.wikipedia.org/wiki/Lotto#Regelungen_seit_4._Mai_2013" title="Lottochancen lt. Wikipedia" target="_blank">6er im Lotto</a></i> zu haben.</p>
 	
 </div>
 
@@ -56,7 +57,7 @@ $lotto = round( 139838160 / $themenmenge_hoch_parteienanzahl, 0 );
 	<p class="font-small">		
 		<span class="os-sb">Frontend</span><br />HTML5, CSS, Javascript<br /><br />
 		<span class="os-sb">Backend</span><br />MySQLi, PHP7<br /><br />
-		<span class="os-sb">Arbeitszeit</span><br />2 Monate Konzepterarbeitung<br />~ 2 Wochen Realisierungszeit<br />~ 4 Wochen Wahlprogrammbe- & verarbeitung<br />3 Tage Testphase<br />
+		<span class="os-sb">Arbeitszeit</span><br />2 Monate Konzepterarbeitung<br />~ 2 Wochen Realisierungszeit<br />pro 10 Seiten Wahlprogramm etwa 1 Stunde Bearbeitungszeit<br />
 		<br />
 		<span class="os-sb">Alle PHP-Dateien<sup class="font-tiny">mit Ausnahme der Datenbankverbindung</sup> können via /?sourcecode direkt eingesehen werden!</span><br />
 	</p>
