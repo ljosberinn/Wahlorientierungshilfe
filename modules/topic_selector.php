@@ -115,7 +115,12 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 		if ( $_SESSION[ 'fortschritt' ] >= 2 ) {
 			echo '
 			<div class="back">
-				<button onclick="edit(\'' . $_SESSION[ 'themenreihenfolge' ] . '-' . $themen[ ( $_SESSION[ 'fortschritt' ] - 2 ) ] . '\');">Zurück</button>
+				<button onclick="edit(\'' . $_SESSION[ 'themenreihenfolge' ] . '-' . $themen[ ( $_SESSION[ 'fortschritt' ] - 2 ) ] . '\');">
+					<svg fill="#4fb0c6" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+						<path d="M8 5v14l11-7z"></path>
+						<path d="M0 0h24v24H0z" fill="none"></path>
+					</svg>Zurück			
+				</button>
 			</div>';
 		}
 
@@ -123,7 +128,12 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 			<span class="os-sb font-large" style="cursor: text;"><span class="topic_name">' . $topic_name . '</span> (Thema ' . $_SESSION[ 'fortschritt' ] . ' von ' . $themenmenge . ')</span>
 		
 			<div class="continue">
-				<button onclick="next_topic(\'' . $_SESSION[ 'themenreihenfolge' ] . '\');">Weiter</button>
+				<button onclick="next_topic(\'' . $_SESSION[ 'themenreihenfolge' ] . '\');">
+					Weiter<svg fill="#4fb0c6" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8 5v14l11-7z"></path>
+						<path d="M0 0h24v24H0z" fill="none"></path>
+					</svg>
+				</button>
 			</div>
 		</div>
 	
@@ -140,13 +150,21 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 			</p>';
 
 		}
+		
+		
+		// PHP Session läuft nach standardisierten 24 Minuten aus (1440 Sekunden)
+		$expiration_time = date('G:i:s', (time('now')+1440));
 
 		echo '
 		</div>	
 	
 		<div class="middle-right">
+		
+			<p class="font-small">Meinung zu einem Thema geändert? Einfach unten auf ein bereits geantwortetes Thema klicken!</p>			
+			
+			<p class="font-tiny">Bitte beachten Sie: um <b>' .$expiration_time. '</b> verfällt aus datenschutztechnischen Gründen Ihr Fortschritt. Pro Thema haben Sie 24 Minuten Zeit.</p>
 	
-			<!-- Icons von https://material.io/icons - Google Material Design Icons -->
+			<!-- Icons von https://material.io/icons - Google Material Design Icons -->			
 		';
 
 		// Lupe
