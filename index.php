@@ -2,6 +2,7 @@
 
 if ( isset( $_GET[ 'sourcecode' ] ) ) {
 	highlight_file( 'index.php' );
+	die();
 }
 
 if ( $_SERVER[ 'HTTPS' ] != 'on' ) {

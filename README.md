@@ -11,24 +11,26 @@ Kontakt ausschließlich via wahl-feedback@gerritalex.de!
 Eine Wahlentscheidungshilfe.
 Falls Sie nicht mit dem von der Bundeszentrale für politische Bildung beworbenen Wahl-O-Maten vertraut sein sollten: Ziel des Wahl-O-Mats der BpB ist es eine Entscheidungsstütze zu einer Wahl darzustellen. Beispielsweise unentschlossene Personen können sich so ohne großen Aufwand durch Beantworten einiger Fragen ein personalisiertes Ergebnis erarbeiten.
 
+
 ## Wenn es schon das offizielle Angebot gibt, wieso dann noch eines?
 
-Der Wahl-O-Mat der Bundeszentrale für politische Bildung ist weder codetransparent, noch ist die Fragenauswahl in irgendeiner Weise überprüf- oder nachvollziehbar. Eine nicht direkt auf den Wahlprogrammen basierende Meinungsbildung ohne Quelleneinsicht halte ich somit für leicht manipulierbar und zu oberflächlich.
-Ein staatliches Angebot sollte diese Anforderungen jedoch erfüllen - ein plausibler Vorwurf der Beeinflussung darf einen staatlichem Angebot nicht gemacht werden, denn sonst verliert sie an Glaubhaftigkeit.
+Der Wahl-O-Mat der Bundeszentrale für politische Bildung ist weder codetransparent, noch ist die Fragenauswahl in irgendeiner Weise überprüf- oder nachvollziehbar - auch dieses Jahr sind Suggestivfragen oder Fragen dabei, die ohne fundiertes Hintergrundwissen nicht mit einem simplen "ja/nein/weiß nicht" beantwortet werden können. Eine nicht direkt auf den Wahlprogrammen basierende Meinungsbildung ohne Quelleneinsicht halte ich somit für leicht manipulierbar und zu oberflächlich, insbesondere da die Jugendredaktion des Wahl-O-Maten selbst zugibt, nicht neutral zu sein.
+Ein staatliches Angebot sollte diese Anforderungen jedoch erfüllen - ein plausibler Vorwurf der Beeinflussung darf einem staatlichem Angebot nicht gemacht werden, denn sonst verliert es an Glaubhaftigkeit.
 Durch diese unscheinbaren, aber doch gravierenden Unterschiede ist diese Wahlorientierungshilfe somit für Jedermann interessant.
-
 
 ## Was erwartet mich?
 
-Nach einem Klick auf Start werden Ihnen in zufälliger Reihenfolge anonymisierte Auszüge aller Parteien mit Einzugschance in den kommenden Bundestag und aller Parteien, die in den letzten 4 Bundestagen vertreten waren, ausgenommen jenen, die sich seitdem aufgelöst haben, vorgestellt.
-Diese Zitate können teilweise lang ausfallen. Bitte nehmen Sie sich hierfür die Zeit!
-Es stehen (THEMENMENGE) verschiedene Themen zur Auswahl. Aus Gründen der Unvoreingenommenheit werden diese hier nicht aufgezählt.
+Nach einem Klick auf 'Fragebogen starten' werden Ihnen in zufälliger Reihenfolge anonymisierte Auszüge aller Parteien mit Einzugschance in den kommenden Bundestag und aller Parteien, die in den letzten 4 Bundestagen vertreten waren, ausgenommen jenen, die sich seitdem aufgelöst haben, vorgestellt.
 
-Die Reihenfolge der Zitate ist ebenso zufällig um ein ggf. entstehendes Muster zu vermeiden. Jeder Durchgang ist quasi einzigartig, die Wahrscheinlichkeit exakt dieselbe Reihenfolge nochmals auszuwürfeln ist 1: (THEMENMENGE^PARTEIEN), was in etwa der X-fachen Wahrscheinlichkeit entspricht, den sprichwörtlichen 6er im Lotto zu haben.
+Es stehen 26 verschiedene Themen zur Auswahl. Aus Gründen der Unvoreingenommenheit werden diese hier nicht aufgezählt.
+Die zugehörigen Zitate können je nach Thematik sehr lang ausfallen - um ein unverfälschtes Ergebnis zu erhalten, ist es zwingend notwendig sich genügend Zeit zu nehmen!
+Bitte wählen Sie das Zitat aus, mit dem Sie am ehesten einverstanden wären.
+
+Die Reihenfolge der Zitate ist wie die Themenreihenfolge zufällig um ein ggf. entstehendes Muster zu vermeiden. Jeder Durchgang ist quasi einzigartig, die Wahrscheinlichkeit exakt dieselbe Reihenfolge nochmals auszuwürfeln ist 1: 308,915,776, was in etwa der 0.45-fachen (also knapp doppelt so selten) Wahrscheinlichkeit entspricht, den sprichwörtlichen 6er im Lotto zu haben.
 
 ## Persönliche Motivation
 
-Schlicht und ergreifend ein Experiment. Bei diesem Projekt obliegt jegliche theoretisch auf ein Team aufteilbare Verantwortung bei mir: Konzept, Farbauswahl, Logogestaltung, Typographie, (Responsive) Frontenddesign, Backenddesign, Skripten und Aufarbeiten der Wahlprogramme. Aufgrund der akuten Situation des offiziellen Wahltools und der einigermaßen<sup style="font-size: 10px;">(Zeitpunkt 9. Juni)</sup> bevorstehenden Wahl habe ich noch dazu eine Deadline zu der das Projekt fertig sein sollte: spätestens einen Monat vor Wahl sofern die Veröffentlichung der individuellen Wahlprogramme das zulässt. Zum jetzigen Zeitpunkt sind alle Programme veröffentlicht – die Analyse der Programme läuft während meiner Freizeit auf Hochtouren.
+Schlicht und ergreifend ein Experiment. Bei diesem Projekt obliegt jegliche theoretisch auf ein Team aufteilbare Verantwortung bei mir: Konzept, Farbauswahl, Logogestaltung, Typographie, (Responsive) Frontenddesign, Backenddesign, Skripten und Aufarbeiten der Wahlprogramme. Aufgrund der akuten Situation des offiziellen Wahltools und der bevorstehenden Wahl habe ich noch dazu eine Deadline zu der das Projekt fertig sein muss.
 
 ## Lizenz
 

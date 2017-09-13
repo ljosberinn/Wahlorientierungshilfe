@@ -2,6 +2,7 @@
 
 if ( isset( $_GET[ 'sourcecode' ] ) ) {
 	highlight_file( 'eval.php' );
+	die();
 }
 
 session_start();
@@ -117,7 +118,7 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 		<div style="margin-left: 20px; width: calc(100% - 40px); height: 10px; border: 1px solid #' . $ergebnis[ 'hex' ] . ';">
 			<div style="width: ' . $prozent . '%; max-width: 100%; height: 10px; background-color: #' . $ergebnis[ 'hex' ] . ';"></div>
 		</div>
-		<p class="os-sb" style="margin-top: 0px; margin-bottom: 0px;">' . $prozent . '% – ' . $ergebnis[ 'partei' ] . '</p>';		
+		<p class="os-sb" style="margin-top: 0px; margin-bottom: 0px;">' . round($prozent, 2) . '% – ' . $ergebnis[ 'partei' ] . '</p>';		
 		
 		if(!empty($ergebnis['themen'])) {
 			
@@ -172,7 +173,7 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 	<p class="font-small"></p>
 	
 	<p class="font-medium os-sb">Bitte nicht vergessen:</p>
-	<p class="font-small">Jede Partei bedient außerdem Nischenthemas, zu dem nur speziell diese eine Aussage getroffen hat. Es ist möglich, dass genau dieses Thema Ihnen jedoch besonders am Herz liegt, deshalb sollten Sie sich meine rechts verlinkten Arbeitsmaterialien zu jeder Partei noch ansehen.</p>
+	<p class="font-small">Jede Partei bedient außerdem Nischenthemen, zu dem nur speziell diese eine Aussage getroffen hat. Es ist möglich, dass genau dieses Thema Ihnen jedoch besonders am Herz liegt, deshalb sollten Sie sich meine rechts verlinkten Arbeitsmaterialien zu jeder Partei noch ansehen.</p>
 	
 	<p class="font-medium os-sb"></p>
 	<p class="font-small"></p>

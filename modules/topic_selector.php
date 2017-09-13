@@ -2,6 +2,7 @@
 
 if ( isset( $_GET[ 'sourcecode' ] ) ) {
 	highlight_file( 'topic_selector.php' );
+	die();
 }
 
 session_start();
@@ -141,13 +142,21 @@ if ( isset( $_POST[ 'reihenfolge' ] ) ) {
 		';
 
 		for ( $i = 1; $i <= 6; $i++ ) {
+			
+			if($i != 6) {
+				$hr = '<hr style="border: 0.2px solid rgb(79, 176, 198);">';
+			}
+			else {
+				$hr = '';
+			}
 
 			echo '
 			<p class="quote">
 				<input type="checkbox" value="' . $i . '" id="' . $i . '"/> <label for="' . $i . '">' . $ {
 				'quote' . $i . ''
 			} . '</label>
-			</p>';
+			</p>
+			' .$hr. '';
 
 		}
 		

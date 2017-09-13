@@ -2,6 +2,7 @@
 
 if ( isset( $_GET[ 'sourcecode' ] ) ) {
 	highlight_file( 'edit.php' );
+	die();
 }
 
 session_start();
@@ -63,11 +64,19 @@ if(isset($_POST[ 'reihenfolge' ]) && isset($_POST[ 'thema' ]) && is_numeric($_PO
 		else {
 			$checked = '';
 		}
+		
+		if($i != 6) {
+				$hr = '<hr style="border: 0.2px solid rgb(79, 176, 198);">';
+		}
+		else {
+			$hr = '';
+		}
 
 		echo '
 			<p class="quote">
 				<input type="checkbox" ' .$checked. ' value="' . $i . '" id="' . $i . '"/> <label for="' . $i . '">' . ${'quote' . $i . ''} . '</label>
-			</p>';
+			</p>
+			' .$hr. '';
 
 	}
 

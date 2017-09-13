@@ -2,6 +2,7 @@
 
 if(isset($_GET['sourcecode'])) {
 	highlight_file('rng.php');
+	die();
 }
 
 session_start();
