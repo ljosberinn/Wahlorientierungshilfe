@@ -2,7 +2,7 @@
 -- version 3.4.11.1deb2+deb7u8
 -- http://www.phpmyadmin.net
 --
--- Host: wp447.webpack.hosteurope.de
+-- Host: 
 -- Erstellungszeit: 13. Sep 2017 um 09:21
 -- Server Version: 5.6.36
 -- PHP-Version: 5.4.45-0+deb7u11
